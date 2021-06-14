@@ -29,24 +29,24 @@ The model structure consists of the following elemennts:
 a) Main script (MAIN.m):
 All submodel codes are integrated in one main script (Main.m). This serves as the main model script and has to be run to obtain model results. 
 
-b) Calculate velocities
+b) Calculate velocities:
 Surface velocities were calculated based on the Imgraft algorithm and are not added in this repository. For the model code of Imgraft, we refer to:
 https://github.com/grinsted/ImGRAFT
 
-c) Load input data
+c) Load input data:
 The different input data which are required for the model are:
 * Surface elevation changes (preferably from flow corrected DEMs)
 * Surface velocities (from feature tracking)
 * Ice thickness dataset
 
-d) Calc_fluxdiv.m
+d) Calc_fluxdiv.m:
 This function calculates the ice flux divergence. Hence, it is the main function to be applied in the model. 
 Four options are available for filtering the gradients: 
 * meanmed_smooth.m = filtering using a mean/median box filter
 * exp_smooth.m = filtering using an exponential filter
 * gaus_smooth.m = filtering using a gaussian filter
 
-e) Calculate SMB
+e) Calculate SMB:
 Add the elevation differences and the calculated ice flux divergence to obtain an estimate of the surface mass balance
 
 # Input datasets
