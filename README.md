@@ -15,6 +15,7 @@ Van Tricht, L., Huybrechts, P., Van Breedam, J., Vanhulle, A., Van Oost, K., and
 -->  Bs=∂h/∂t+ ∇.q <--      (Continuity equation, reverted to obtain the mass balance) 
 
 where:
+
   Bs = surface mass balance
   ∂h/∂t = surface elevation changes
   ∇.q = ice flux divergence 
